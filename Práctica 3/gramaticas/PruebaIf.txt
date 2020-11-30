@@ -1,0 +1,16 @@
+digraph G {
+nodo1[label=""];
+nodo2[label=""];
+nodo3[label=""];
+nodo4[label=""];
+nodo5[label=""];
+nodo6[label=""];
+nodo1[fillcolor=white shape=Mdiamond style=filled label="start"];
+nodo6[fillcolor=white shape=Msquare style=filled label="end"];
+nodo1->nodo2;
+nodo2->nodo3;
+nodo2->nodo4;
+nodo3->nodo5;
+nodo4->nodo5;
+nodo5->nodo6;
+}

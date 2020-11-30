@@ -1,0 +1,7 @@
+digraph G {
+nodo1[label=""];
+nodo2[label=""];
+nodo1[fillcolor=white shape=Mdiamond style=filled label="start"];
+nodo2[fillcolor=white shape=Msquare style=filled label="end"];
+nodo1->nodo2;
+}
